@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity() {
         settings_button.setOnClickListener {
             val setting_intent = Intent(this,SettingsActivity::class.java)
             startActivity(setting_intent)
-        }
-
+        } //
+        // git commit -m "Added a new haiku in filename.md file"
         val activity_search = findViewById<Button>(R.id.search)
 
         activity_search.setOnClickListener {
