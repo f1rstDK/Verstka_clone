@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         }
         //
 
+        //
         val activity_search = findViewById<Button>(R.id.search)
 
         activity_search.setOnClickListener {
