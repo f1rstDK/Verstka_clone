@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
             val setting_intent = Intent(this,SettingsActivity::class.java)
             startActivity(setting_intent)
         }
+        //
 
         val activity_search = findViewById<Button>(R.id.search)
 
